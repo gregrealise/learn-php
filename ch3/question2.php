@@ -14,5 +14,8 @@ $cost = 2 * $hamburger_cost + $milkshake_cost + $cola_cost;
 $tip *= $cost;
 $tax *= $cost;
 
-print "Total cost = $cost";
+print "Food = $cost";
+print "Tax = $tax";
+print "Tip = $tip";
+printf("Total $%.2f",$cost+$tax+$tip);
 ?>
