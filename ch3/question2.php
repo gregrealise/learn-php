@@ -15,4 +15,5 @@ while ($farenheit < 51)
 {
     print ("farenehit \t = \t $farenheit");
 
+    $farenheit += 5;
 }
